@@ -1,0 +1,21 @@
+{
+  "name": "pesapal",
+  "version": "1.0.0",
+  "description": "Web server (with optional secure communication)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "amosmoyo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
